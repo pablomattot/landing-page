@@ -70,12 +70,12 @@ a:link {
 button {
     padding: 7px 1em;
     width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
 }
 
 .welcome button {
-    background-color: #3882F6;
     border: none;
-    border-radius: 8px;
 }
 
 .image {
@@ -145,4 +145,41 @@ main h2 {
     font-size: 36px;
     font-weight: 100;
     color: #1f2937;
+}
+
+/* SIGN UP */
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container button {
+    border: 2px solid #FFF;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1f2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
 }
