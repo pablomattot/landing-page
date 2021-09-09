@@ -87,3 +87,62 @@ button {
 }
 
 /* CARD SECTION */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
+}
+
+.card {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.square {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+/* QUOTE */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.quote p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
